@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "sem5/1.0.0": {
+      "dz5_3/1.0.0": {
         "runtime": {
-          "sem5.dll": {}
+          "dz5_3.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "sem5/1.0.0": {
+    "dz5_3/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
