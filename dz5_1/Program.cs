@@ -11,6 +11,19 @@ int[] GenerateRandomArray(int length,int startPoint, int endPoint)
     return resultArray;
 }
 
+int getSumOfEvenElementInArray(int[] array)
+{
+    int sum = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if ((array[i] % 2 ) == 0)
+        {
+            sum += array[i];
+        }
+    }
+    return sum;
+}
+
 void printArray(int[] array)
 {
     Console.Write("[");
@@ -25,5 +38,8 @@ void printArray(int[] array)
     Console.WriteLine("]");
 }
 
-int []Array = GenerateRandomArray(5, 111, 999);
+int []Array = GenerateRandomArray(5, 100, 999);
 printArray(Array);
+Console.WriteLine();
+int SumOfEven = getSumOfEvenElementInArray(Array);
+Console.WriteLine($"Сумма четных чисел массива = {SumOfEven}");
