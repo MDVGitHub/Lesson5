@@ -19,4 +19,4 @@ for (int i = 0; i < array.Length; i++)
     Console.Write(Array[i])+",";
 }
 
-int i[] GenerateRandomArray()
+//int i[] GenerateRandomArray()

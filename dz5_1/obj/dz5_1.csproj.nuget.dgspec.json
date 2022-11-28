@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dmitriymakarov/Desktop/C##/Lesson5/dz5_1/dz5_1.csproj": {}
+    "C:\\Users\\dmaka\\Desktop\\С##\\Lesson5\\dz5_1\\dz5_1.csproj": {}
   },
   "projects": {
-    "/Users/dmitriymakarov/Desktop/C##/Lesson5/dz5_1/dz5_1.csproj": {
+    "C:\\Users\\dmaka\\Desktop\\С##\\Lesson5\\dz5_1\\dz5_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dmitriymakarov/Desktop/C##/Lesson5/dz5_1/dz5_1.csproj",
+        "projectUniqueName": "C:\\Users\\dmaka\\Desktop\\С##\\Lesson5\\dz5_1\\dz5_1.csproj",
         "projectName": "dz5_1",
-        "projectPath": "/Users/dmitriymakarov/Desktop/C##/Lesson5/dz5_1/dz5_1.csproj",
-        "packagesPath": "/Users/dmitriymakarov/.nuget/packages/",
-        "outputPath": "/Users/dmitriymakarov/Desktop/C##/Lesson5/dz5_1/obj/",
+        "projectPath": "C:\\Users\\dmaka\\Desktop\\С##\\Lesson5\\dz5_1\\dz5_1.csproj",
+        "packagesPath": "C:\\Users\\dmaka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dmaka\\Desktop\\С##\\Lesson5\\dz5_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dmitriymakarov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dmaka\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -48,12 +48,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
