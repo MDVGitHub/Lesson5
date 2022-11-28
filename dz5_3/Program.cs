@@ -1,9 +1,9 @@
 ﻿/*Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 [3 7 22 2 78] -> 76*/
 
-int[] GenerateRandomArray(int length,int startPoint, int endPoint)
+double[] GenerateRandomArray(int length,int startPoint, int endPoint)
 {
-    int[] resultArray = new int[length];
+    double[] resultArray = new double[length];
     for (int i = 0; i < length; i++)
     {
         resultArray[i] = new Random().Next(startPoint, endPoint+1);
