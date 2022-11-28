@@ -18,7 +18,7 @@ int getSumOfEvenElementInArray(int[] array)
     {
         if ((array[i] % 2 ) == 0)
         {
-            sum += array[i];
+            sum += 1;
         }
     }
     return sum;
@@ -42,4 +42,4 @@ int []Array = GenerateRandomArray(5, 100, 999);
 printArray(Array);
 Console.WriteLine();
 int SumOfEven = getSumOfEvenElementInArray(Array);
-Console.WriteLine($"Сумма четных чисел массива = {SumOfEven}");
+Console.WriteLine($"Количество четных чисел массива = {SumOfEven}");
