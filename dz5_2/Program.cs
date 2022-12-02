@@ -2,12 +2,12 @@
 [3, 7, 23, 12] -> 19
 [-4, -6, 89, 6] -> 0*/
 
-int[] GenerateRandomArray(int length,int startPoint, int endPoint)
+int[] GenerateRandomArray(int length, int startPoint, int endPoint)
 {
     int[] resultArray = new int[length];
     for (int i = 0; i < length; i++)
     {
-        resultArray[i] = new Random().Next(startPoint, endPoint+1);
+        resultArray[i] = new Random().Next(startPoint, endPoint + 1);
     }
     return resultArray;
 }
@@ -17,7 +17,7 @@ int getSumOfOddPositionElementInArray(int[] array)
     int sum = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if ((i % 2 ) > 0)
+        if ((i % 2) > 0)
         {
             sum += array[i];
         }
@@ -39,7 +39,7 @@ void printArray(int[] array)
     Console.WriteLine("]");
 }
 
-int []Array = GenerateRandomArray(4, -99, 99);
+int[] Array = GenerateRandomArray(4, -99, 99);
 printArray(Array);
 Console.WriteLine();
 int SumOfOdd = getSumOfOddPositionElementInArray(Array);

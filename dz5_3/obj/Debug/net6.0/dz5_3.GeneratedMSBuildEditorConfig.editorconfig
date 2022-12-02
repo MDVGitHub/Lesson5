@@ -5,11 +5,6 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dz5_3
-<<<<<<< HEAD
-build_property.ProjectDir = c:\Users\dmaka\Desktop\С##\Lesson5\dz5_3\
-=======
 build_property.ProjectDir = /Users/dmitriymakarov/Desktop/C##/Lesson5/dz5_3/
->>>>>>> 37bf56eb51763e5267d11799f141fec33e10edef
